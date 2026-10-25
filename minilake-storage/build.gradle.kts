@@ -1,0 +1,1 @@
+plugins { id("minilake.java-conventions"); `java-library` }
