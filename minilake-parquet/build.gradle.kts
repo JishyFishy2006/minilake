@@ -4,4 +4,5 @@ dependencies {
     implementation(project(":minilake-storage"))
     implementation("org.apache.parquet:parquet-hadoop:1.18.0")
     implementation("org.apache.hadoop:hadoop-client-api:3.4.1")
+    runtimeOnly("org.apache.hadoop:hadoop-client-runtime:3.4.1")
 }
